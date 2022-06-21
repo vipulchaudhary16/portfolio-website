@@ -3,8 +3,8 @@ import "./about.css"
 
 export default function About() {
   return (
-    <div>
+    <section id='about'>
       about
-    </div>
+    </section>
   )
 }
