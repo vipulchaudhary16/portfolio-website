@@ -31,3 +31,10 @@ nav a.active{
     background: var(--color-bg);
     color : var(--color-white)
 }
+
+/* Handling small screen mobiles */
+@media screen and (max-width : 430px) {
+    nav{
+        bottom: 1rem;
+    }
+}

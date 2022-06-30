@@ -24,15 +24,15 @@ export default function Nav() {
       >
         <AiOutlineUser />
       </a>
-      <a href="#experience"
-      onClick={() => setActiveNav("#experience")}
-      className={activeNav === "#experience" ? 'active' : " "}
+      <a href="#skills"
+      onClick={() => setActiveNav("#skills")}
+      className={activeNav === "#skills" ? 'active' : " "}
       >
         <AiOutlineBook />
       </a>
-      <a href="#services"
-      onClick={() => setActiveNav("#services")}
-      className={activeNav === "#services" ? 'active' : " "}
+      <a href="#portfolio"
+      onClick={() => setActiveNav("#portfolio")}
+      className={activeNav === "#portfolio" ? 'active' : " "}
       >
         <RiServiceFill />
       </a>
