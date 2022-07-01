@@ -13,6 +13,7 @@ export default function Nav() {
   return (
     <nav>
       <a href="#" 
+      onClick={() => setActiveNav("#")}
       className={activeNav === "#" ? 'active' : " "}
       >
         <AiOutlineHome />

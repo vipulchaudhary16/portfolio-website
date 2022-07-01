@@ -20,6 +20,7 @@
 .portfolio__item-image img {
     border-radius: 2rem;
     overflow: hidden;
+    height: 14rem;
 }
 
 .portfolio__item h3 {
@@ -31,6 +32,10 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.disable_link{
+   display: none;
 }
 
 /* Media query */

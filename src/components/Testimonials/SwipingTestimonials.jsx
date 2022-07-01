@@ -32,8 +32,7 @@ export default function SwipingTestimonials() {
             </div>
             <h5 className="mate__name">Harsh Varmora</h5>
             <small className="mates__words">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              accusantium sunt expedita rerum commodi.
+            Vipul is truly a collaborative partner during the whole process. And made it fun to work on a website project instead of stressful..
             </small>
           </article>
         </SwiperSlide>
