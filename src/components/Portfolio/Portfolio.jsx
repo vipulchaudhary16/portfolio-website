@@ -16,7 +16,7 @@ export default function Portfolio() {
           <h3>Title</h3>
 
           <div className="portfolio__item-cta">
-            <a href="" className="btn portfolio__item-cta" target="_blank">
+            <a href="https://github.com/vipulchaudhary16/videocall-react-app" className="btn portfolio__item-cta" target="_blank">
               GitHub
             </a>
             <a
