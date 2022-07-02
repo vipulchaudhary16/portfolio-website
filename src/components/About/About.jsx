@@ -19,17 +19,17 @@ export default function About() {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <MdWorkOutline className="about__icon" />
               <h5>Experience</h5>
-              <small>Recently Graduated Fresher</small>
+              <small>1 Remote Internship</small>
             </article>
 
             <article className="about__card">
               <MdOutlineComputer className="about__icon" />
               <h5>Courses</h5>
-              <small>Completed 20+ Courses</small>
+              <small>Completed 5+ Courses</small>
             </article>
 
             <article className="about__card">
@@ -37,7 +37,7 @@ export default function About() {
               <h5>Projects</h5>
               <small>25+ Projects</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
             My name is Vipul Chaudhary, computer engineering student. I'm 3 ⭐

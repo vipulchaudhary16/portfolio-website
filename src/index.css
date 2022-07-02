@@ -110,6 +110,10 @@ img{
     object-fit: cover;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* Mid Devices Media queries */
 @media screen and (max-width : 1024px)  {
     .container{

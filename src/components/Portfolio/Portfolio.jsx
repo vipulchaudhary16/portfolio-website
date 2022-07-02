@@ -1,8 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import me from "../../assets/myself.jpg";
 
-import portfolioData from "../../data/data";
+import {portfolioData} from "../../data/data";
 
 export default function Portfolio() {
   console.log(portfolioData);
@@ -26,6 +25,7 @@ export default function Portfolio() {
                 href={data.github_link}
                 className="btn portfolio__item-cta"
                 target="_blank"
+                rel="noreferrer"
                 >
                 GitHub
               </a>
@@ -33,7 +33,7 @@ export default function Portfolio() {
                 href={data.live_link}
                 className={data.live_link ? 'btn btn-primary portfolio__item-cta ' : 'disable_link'}
                 target="_blank"
-                
+                rel="noreferrer"
               >
                 Live Demo
               </a>

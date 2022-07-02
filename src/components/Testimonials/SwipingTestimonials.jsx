@@ -12,7 +12,7 @@ import "./testimonials.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-import Harsh from "../../assets/HarshV.jfif";
+import { testimonialsData } from "../../data/data";
 
 export default function SwipingTestimonials() {
   return (
@@ -25,70 +25,19 @@ export default function SwipingTestimonials() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <article className="testimonial">
-            <div className="friend__avtar">
-              <img src={Harsh} alt="Harsh Varmora" />
-            </div>
-            <h5 className="mate__name">Harsh Varmora</h5>
-            <small className="mates__words">
-            Vipul is truly a collaborative partner during the whole process. And made it fun to work on a website project instead of stressful..
-            </small>
-          </article>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <article className="testimonial">
-            <div className="friend__avtar">
-              <img src={Harsh} alt="Harsh Varmora" />
-            </div>
-            <h5 className="mate__name">Harsh Varmora</h5>
-            <small className="mates__words">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              accusantium sunt expedita rerum commodi.
-            </small>
-          </article>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <article className="testimonial">
-            <div className="friend__avtar">
-              <img src={Harsh} alt="Harsh Varmora" />
-            </div>
-            <h5 className="mate__name">Harsh Varmora</h5>
-            <small className="mates__words">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              accusantium sunt expedita rerum commodi.
-            </small>
-          </article>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <article className="testimonial">
-            <div className="friend__avtar">
-              <img src={Harsh} alt="Harsh Varmora" />
-            </div>
-            <h5 className="mate__name">Harsh Varmora</h5>
-            <small className="mates__words">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              accusantium sunt expedita rerum commodi.
-            </small>
-          </article>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <article className="testimonial">
-            <div className="friend__avtar">
-              <img src={Harsh} alt="Harsh Varmora" />
-            </div>
-            <h5 className="mate__name">Harsh Varmora</h5>
-            <small className="mates__words">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              accusantium sunt expedita rerum commodi.
-            </small>
-          </article>
-        </SwiperSlide>
-        
+        {testimonialsData.map((testimonial) => {
+          return (
+            <SwiperSlide>
+              <article className="testimonial">
+                <div className="friend__avtar">
+                  <img src={testimonial.pic} alt="Harsh Varmora" />
+                </div>
+                <h5 className="mate__name">{testimonial.name}</h5>
+                <small className="mates__words">{testimonial.words}</small>
+              </article>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );

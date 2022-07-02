@@ -30,7 +30,7 @@ export default function Contact() {
             <AiOutlineMail className="contact__icon"/>
             <h4>Email</h4>
             <h5>vipulr6111@gmail.com</h5>
-            <a href="mailto:vipulr6111@gmail.com" target='_blank'>Let's Talk</a>
+            <a href="mailto:vipulr6111@gmail.com" target='_blank' rel="noopener">Let's Talk</a>
           </article>
 
           {/* <article>
@@ -44,7 +44,7 @@ export default function Contact() {
             <FiTwitter className="contact__icon"/>
             <h4>Twitter</h4>
             <h5>c_vipul_r</h5>
-            <a href="https://twitter.com/c_vipul_r" target='_blank'>Let's Connect</a>
+            <a href="https://twitter.com/c_vipul_r" target='_blank' rel="noopener">Let's Connect</a>
           </article>
         </div>
 

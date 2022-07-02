@@ -17,8 +17,8 @@ export default function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://fb.com/chaudhary.vipul.7737" target='_blank'><AiFillFacebook/></a>
-        <a href="https://instagram.com/vipulchaudhary.class" target='_blank'><AiOutlineInstagram/></a>
+        <a href="https://fb.com/chaudhary.vipul.7737" target='_blank' rel="noopener"><AiFillFacebook/></a>
+        <a href="https://instagram.com/vipulchaudhary.class" target='_blank' rel="noopener"><AiOutlineInstagram/></a>
       </div>
 
       <div className="footer__copyright">&copy; VIPUL CHAUDHARY</div>
