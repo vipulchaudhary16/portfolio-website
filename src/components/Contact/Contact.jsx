@@ -29,7 +29,7 @@ export default function Contact() {
           <article className="contact__option">
             <AiOutlineMail className="contact__icon"/>
             <h4>Email</h4>
-            <h5>vipulr6111@gmail.com</h5>
+            <h5>vipul.cce20@sot.pdpu.ac.in</h5>
             <a href="mailto:vipulr6111@gmail.com" target='_blank' rel="noopener">Let's Talk</a>
           </article>
 
