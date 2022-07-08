@@ -23,6 +23,22 @@ const portfolioData = [
     live_link: null,
     github_link: "https://github.com/vipulchaudhary16/notebook-React-App",
   },
+  {
+    id: 4,
+    title: "Video Calling React Web App",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2FVideoCallReactApp.jpg?alt=media&token=585f6998-274a-4d82-8096-47e7438df7f0",
+    live_link: 'https://veerza-calling.netlify.app/',
+    github_link: "https://github.com/vipulchaudhary16/videocall-react-app",
+  },
+  {
+    id: 5,
+    title: "WeatherX - Android App",
+    image:
+      "",
+    live_link: null,
+    github_link: "https://github.com/vipulchaudhary16/Weatherex-Android-weather-app",
+  },
 ];
 
 const testimonialsData = [
@@ -30,13 +46,19 @@ const testimonialsData = [
         id : 1,
         name : 'Harsh Varmora',
         pic : 'https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/testimonial%2FHarshV.jfif?alt=media&token=e1b38307-a266-4c3c-a243-cc6b94ee0b9f',
-        words : 'Vipul is truly a collaborative partner during the whole process And made it fun to work on a website project instead of stressful'
+        words : 'Vipul is truly a collaborative partner during the whole process And made it fun to work on a website project instead of stressful.'
     },
     {
         id : 2,
         name : 'Jay Nakum',
         pic : 'https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/testimonial%2FJay%20Nakum.jpeg?alt=media&token=62e89577-fddc-462f-969a-ba5c64957c19',
         words : 'Vipul is one of the most talented person I have ever worked with.'
+    },
+    {
+        id : 3,
+        name : 'Navin Chaudhary',
+        pic : 'https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/testimonial%2FNavin%20Chaudhary.jpg?alt=media&token=5250e753-cc2e-4256-9605-b87328ec4764',
+        words : 'Vipul is The best person with intelligence and good nature.'
     }
 
 ]
