@@ -11,10 +11,14 @@
 }
 
 :root{
-    --color-bg: #1f1f38 ;
+    /* --color-bg: #1f1f38 ;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff; 
-    --color-primary-variant : rgba(77, 181, 255, 0.4);
+    --color-primary-variant : rgba(77, 181, 255, 0.4); */
+    --color-bg: #5310a4 ;
+    --color-bg-variant: #590db5;
+    --color-primary: #12cbe7; 
+    --color-primary-variant : rgba(71, 158, 220, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -23,6 +27,8 @@
     --container-width-sm: 90%;
 
     --transition : all 400ms ease;
+
+    --shadow : rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 html{
@@ -38,13 +44,17 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src//assets//bg-texture.png);
+    /* background-image: url(../src//assets//bg-texture.png); */
 }
 
 /* GENERAL STYLES */
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 h1, h2, h3, h4, h5{

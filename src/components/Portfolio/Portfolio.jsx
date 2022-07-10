@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 
-import {portfolioData} from "../../data/data";
+import { portfolioData } from "../../data/data";
 
 export default function Portfolio() {
   console.log(portfolioData);
@@ -12,36 +12,39 @@ export default function Portfolio() {
 
       <div className="container portfolio__container">
         {portfolioData.map((data) => {
-          return(
+          return (
             <>
-            <article className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={data.image} alt="Portfolio" />
-            </div>
-            <h3>{data.title}</h3>
+              <article className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={data.image} alt="Portfolio" />
+                </div>
+                <h3>{data.title}</h3>
 
-            <div className="portfolio__item-cta">
-              <a
-                href={data.github_link}
-                className="btn portfolio__item-cta"
-                target="_blank"
-                rel="noreferrer"
-                >
-                GitHub
-              </a>
-              <a
-                href={data.live_link}
-                className={data.live_link ? 'btn btn-primary portfolio__item-cta ' : 'disable_link'}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div>
-          </article>
-          </>
+                <div className="portfolio__item-cta">
+                  <a
+                    href={data.github_link}
+                    className="btn portfolio__item-cta"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href={data.live_link}
+                    className={
+                      data.live_link
+                        ? "btn btn-primary portfolio__item-cta "
+                        : "disable_link"
+                    }
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </article>
+            </>
           );
-      
         })}
       </div>
     </section>
