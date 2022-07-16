@@ -23,7 +23,11 @@ export default function Portfolio() {
                 <div className="portfolio__item-cta">
                   <a
                     href={data.github_link}
-                    className="btn portfolio__item-cta"
+                    className={
+                      data.github_link
+                        ? "btn portfolio__item-cta "
+                        : "disable_link"
+                    }
                     target="_blank"
                     rel="noreferrer"
                   >

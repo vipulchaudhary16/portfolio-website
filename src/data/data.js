@@ -11,7 +11,7 @@ const portfolioData = [
     id: 2,
     title: "Text Manipulation Web App",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2FtextUtils.jpg?alt=media&token=5b484eeb-d236-4c09-a36c-d16e1b7c5c56",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2FTextUtills.jpg?alt=media&token=09073b40-ff4a-4539-b4b5-2dc42c516b1e",
     live_link: "https://vipulchaudhary16.github.io/Text-Utils-React-App/",
     github_link: "https://github.com/vipulchaudhary16/Text-Utils-React-App",
   },
@@ -30,6 +30,30 @@ const portfolioData = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2FVideoCallReactApp.jpg?alt=media&token=585f6998-274a-4d82-8096-47e7438df7f0",
     live_link: 'https://veerza-calling.netlify.app/',
     github_link: "https://github.com/vipulchaudhary16/videocall-react-app",
+  },
+  {
+    id: 6,
+    title: "Chat Room React Web App",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2Fveerza%20chat.jpg?alt=media&token=705dd957-2122-4904-b377-511c1cd0cdcc",
+    live_link: 'https://veerza.netlify.app/',
+    github_link: "https://github.com/vipulchaudhary16/Chat-App-ReactJS",
+  },
+  {
+    id: 8,
+    title: "Communication platform for placement cell and Company - Hackathon project",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2FPioneer.jpg?alt=media&token=92fe5781-e5be-4b3b-92f7-25008c8af64c",
+    live_link: 'https://pioneer-hiring-cell.web.app/',
+    github_link: "https://github.com/harshvarmora28/pioneer/",
+  },
+  {
+    id: 7,
+    title: "Real-time clock using Javascript",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2Fjavascript%20clock.jpg?alt=media&token=8487cdd8-1d4c-48bb-86fa-a962259d62b5",
+    live_link: 'https://analogwatch-vc.netlify.app/',
+    github_link: null,
   },
   {
     id: 5,
