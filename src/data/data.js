@@ -152,8 +152,13 @@ const skills = [
     other : [
       {
         id:1,
-        name : 'Machine Learning',
-        level : 'Beginner'
+        name : 'C++',
+        level : 'Intermediate'
+      },
+      {
+        id:1,
+        name : 'Data Structure',
+        level : 'Intermediate'
       },
       {
         id:1,
