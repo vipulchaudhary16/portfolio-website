@@ -53,15 +53,15 @@ const portfolioData = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2Fjavascript%20clock.jpg?alt=media&token=8487cdd8-1d4c-48bb-86fa-a962259d62b5",
     live_link: 'https://analogwatch-vc.netlify.app/',
-    github_link: null,
+    github_link: 'https://github.com/vipulchaudhary16/Analog-watch',
   },
   {
-    id: 5,
-    title: "WeatherX - Android App",
+    id: 8,
+    title: "Snake Game - Javascript",
     image:
-      "",
-    live_link: null,
-    github_link: "https://github.com/vipulchaudhary16/Weatherex-Android-weather-app",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-792c8.appspot.com/o/Project%20pics%2Fsnake%20game.jpg?alt=media&token=22e185d5-204e-41b3-9733-5068ed25c754",
+    live_link: 'https://snakegame-kinj.netlify.app/',
+    github_link: 'https://github.com/vipulchaudhary16/SnakeGame',
   },
 ];
 
